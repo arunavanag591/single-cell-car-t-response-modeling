@@ -4,6 +4,7 @@ In this repo we are modeling Single Cell RNA CAR T therapy response using scanpy
 ### Files:
 - [Basic Visualization of dataset, Clustering and Response modeling using Random Forest Classifier](scRNA_carT_response_modeling.ipynb)
 - [Response modeling using convolution neural network](scRNA_carT_response_modeling_using_CNN.ipynb)
+- [Integrating scGPT cell embeddings for response modeling and gene interaction](scRNA_using_SCGPT_embeddings_CNN.ipynb)
 
 ### Libraries used:
 - scanpy 1.10.3
@@ -12,3 +13,4 @@ In this repo we are modeling Single Cell RNA CAR T therapy response using scanpy
 - numpy
 - pytorch 2.1.2
 - cuda 12.1
+- [scGPT](https://github.com/bowang-lab/scGPT) 
